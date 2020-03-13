@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~app.7330c613.js"
   },
   {
-    "revision": "2c504fbb173324c14177",
-    "url": "/static/js/2.dd8bf579.chunk.js"
+    "revision": "d9d3a8f28fcd43df25c5",
+    "url": "/static/js/2.84b07671.chunk.js"
   },
   {
     "revision": "b2e0fc821c6886fb3940f85a3320003e",
@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/serve.json"
   },
   {
-    "revision": "48c7ed4e7da9792af288a60d7242d615",
-    "url": "/expo-service-worker.js"
-  },
-  {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
     "url": "/favicon.ico"
+  },
+  {
+    "revision": "48c7ed4e7da9792af288a60d7242d615",
+    "url": "/expo-service-worker.js"
   },
   {
     "revision": "e2ecdd657a4b0dd7e62b52e4aac4d0db",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/apple/icons/icon_512x512.png"
   },
   {
-    "revision": "0ba258980e80ca54a4d38d542082654b",
+    "revision": "f71ea105633a94142a1265d98c08bc13",
     "url": "/index.html"
   },
   {
