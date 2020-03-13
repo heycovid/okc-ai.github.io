@@ -2,48 +2,32 @@ import React from 'react';
 import { StyleSheet, Platform, Text, View, Image, } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { SplashScreen } from 'expo';
-import { useLinking } from '@react-navigation/native';
+
+
+import { createMaterialTopTabNavigator, createAppContainer } from "@react-navigation/native";
+
 import { Ionicons } from '@expo/vector-icons';
 import * as Font from 'expo-font';
+
+import Main from "./Main";
+// import Chat from "./Chat";
+
+// // Create the navigator
+// const RootNavigator = createMaterialTopTabNavigator({
+//   Main: { screen: Main },
+//   Chat: { screen: Chat },
+//   });
+
+
+// const navigator = createStackNavigator({
+
+// });
+// Export
 
 export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = React.useState(false);
   const [initialNavigationState, setInitialNavigationState] = React.useState();
-  // const containerRef = React.useRef();
-  // const { getInitialState } = useLinking(containerRef);
 
-  // // Load any resources or data that we need prior to rendering the app
-  // React.useEffect(() => {
-    
-  //   async function loadResourcesAndDataAsync() {
-  //     try {
-  //       SplashScreen.preventAutoHide();
-
-  //       // Load our initial navigation state
-  //       setInitialNavigationState(await getInitialState());
-
-  //       // // Load fonts
-  //       // await Font.loadAsync({
-  //       //   ...Ionicons.font,
-  //       //   'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
-  //       //   'bitter': require('./assets/fonts/Bitter/Bitter-Regular.ttf'),
-  //       //   'pacifico':require('./assets/fonts/Pacifico/Pacifico-Regular.ttf'),
-  //       // });
-  //     } catch (e) {
-  //       // We might want to provide this error information to an error reporting service
-  //       console.warn(e);
-  //     } finally {
-  //       setLoadingComplete(true);
-  //       SplashScreen.hide();
-  //     }
-  //   }
-
-  //   loadResourcesAndDataAsync();
-  // }, []);
-
-  // if (!isLoadingComplete && !props.skipLoadingScreen) {
-  //   return null;
-  // } else {
 
     Font.loadAsync({
               ...Ionicons.font,
