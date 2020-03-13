@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19003,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 67903,
+  "expoServerNgrokUrl": "https://bh-xgb.anonymous.okcai.exp.direct",
+  "packagerNgrokUrl": "https://packager.bh-xgb.anonymous.okcai.exp.direct",
+  "ngrokPid": 67913,
+  "webpackServerPort": 19007
+}
